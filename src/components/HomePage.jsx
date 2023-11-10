@@ -1,8 +1,10 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import logo from '../assets/Logo transparent.png'
 
 const images = [
+  logo,
   'https://img.freepik.com/free-photo/dentist-with-smile_144627-886.jpg?w=900&t=st=1699525384~exp=1699525984~hmac=c877add9520e1b05a7707813feaf6f97d705ed038b2c7703ed804f2d345bd85e',
   'https://images.unsplash.com/photo-1581584731241-c134a1afe9a0?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   'https://images.unsplash.com/photo-1626736985932-c0df2ae07a2e?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -33,7 +35,7 @@ const HomePage = () => {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              style={{ width: '100%', height: '450px', objectFit: 'cover' }}
+              style={{ width: '100%', height: '530px', objectFit: 'cover' }}
             />
           </div>
         ))}

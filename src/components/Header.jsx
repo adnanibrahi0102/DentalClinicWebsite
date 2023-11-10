@@ -16,12 +16,16 @@ const Header = () => {
 
           {/* Logo */}
           <div className='flex items-center'>
-            <img
-              src={logo}
-              alt="Logo"
-              className="w-16 h-16 mr-2 rounded-xl"
-            />
-            <Link to="/" className='text-lg font-semibold hover:text-teal-200 transition duration-300'>Pristine Dental Clinic</Link>
+            <Link to='/'>
+              <img
+                src={logo}
+                alt="Logo"
+                className="w-16 h-16 mr-2 rounded-xl"
+              />
+            </Link>
+            <Link to="/" className='text-lg font-semibold hover:text-orange-400 transition duration-300' style={{ fontFamily: 'cursive' }}>
+              Pristine <span className="text-sm text-slate-700 " style={{ fontFamily: 'cursive' }}>Oral & Maxillofacial Clinic</span>
+            </Link>
           </div>
 
           {/* Hamburger Icon for Mobile */}
