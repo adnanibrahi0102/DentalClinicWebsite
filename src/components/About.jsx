@@ -1,5 +1,5 @@
 const AboutPage = () => {
-  // Actual dental image URLs
+  
   const actualImage1 = 'https://images.pexels.com/photos/12917374/pexels-photo-12917374.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
   const actualImage2 = 'https://images.pexels.com/photos/4971503/pexels-photo-4971503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
 
@@ -25,7 +25,7 @@ const AboutPage = () => {
       <p className="text-lg leading-relaxed mb-6">
         Thank you for choosing our clinic. We eagerly anticipate the opportunity to care for your smile.
       </p>
-      {/* Add more information about your clinic and team here */}
+     
     </div>
   );
 };

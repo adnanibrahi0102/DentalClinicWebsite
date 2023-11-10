@@ -10,8 +10,8 @@ const Header = () => {
   };
 
   return (
-    <header>
-      <nav className='bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 text-gray-800 p-2 lg:p-4'>
+    <header className="sticky top-0 z-50">
+      <nav className='bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 text-slate-950 p-2 lg:p-4'>
         <div className='container mx-auto flex justify-between items-center'>
 
           {/* Logo */}
