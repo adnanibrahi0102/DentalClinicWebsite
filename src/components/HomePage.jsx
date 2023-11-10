@@ -40,7 +40,9 @@ const HomePage = () => {
       </Slider>
       <div className="text-center mt-4 p-4">
         <h1 className="text-4xl font-bold mb-2">Welcome to Pristine Dental Clinic</h1>
-        <p className="text-lg text-gray-800">Your source for quality dental care in [Your Location].</p>
+        <p className="text-lg text-gray-800">
+        Your trusted partner for comprehensive dental care in Wanpoh, Anantnag. We are dedicated to providing top-notch services to enhance your oral health and well-being, ensuring a brighter and healthier smile for you.
+        </p>
         <button className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 mt-4 rounded-full">
           Book an Appointment
         </button>
