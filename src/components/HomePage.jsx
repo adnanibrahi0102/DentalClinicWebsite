@@ -2,6 +2,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import logo from '../assets/Logo transparent.png'
+import Appointment from './Appointment';
 
 const images = [
   logo,
@@ -27,6 +28,7 @@ const settings = {
 };
 
 const HomePage = () => {
+  
   return (
     <div>
       <Slider {...settings}>
@@ -45,9 +47,7 @@ const HomePage = () => {
         <p className="text-lg text-gray-800">
         Your trusted partner for comprehensive dental care in Wanpoh, Anantnag. We are dedicated to providing top-notch services to enhance your oral health and well-being, ensuring a brighter and healthier smile for you.
         </p>
-        <button className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 mt-4 rounded-full">
-          Book an Appointment
-        </button>
+        <Appointment/>
       </div>
     </div>
   );
