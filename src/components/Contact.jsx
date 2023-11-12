@@ -1,15 +1,45 @@
 
+import { FaMapMarkerAlt, FaEnvelope, FaPhone } from 'react-icons/fa';
 
-const NotFoundPage = () => {
+const Contact = () => {
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-200">
-      <div className="text-center">
-        <h1 className="text-6xl font-bold text-gray-800 mb-4">404</h1>
-        <p className="text-2xl text-gray-600 mb-8">Page not found</p>
-        <p className="text-lg text-gray-700">The page you are looking for might be under construction or does not exist.</p>
+    <div className="container mx-auto p-8 bg-gray-100 rounded-md shadow-md max-w-md">
+      <h1 className="text-4xl font-bold mb-6 text-teal-600">Get In Touch</h1>
+
+      <div className="mb-6">
+        <div className="flex items-center mb-4">
+          <FaMapMarkerAlt className="text-teal-500 text-lg mr-2" />
+          <div>
+            <h2 className="text-2xl font-semibold mb-2">Visit Us:</h2>
+            <span className="text-md">Wanpoh, Anantnag</span>
+          </div>
+        </div>
+        
+        <div className="flex items-center mb-4">
+          <FaEnvelope className="text-teal-500 text-lg mr-2" />
+          <div>
+            <h2 className="text-2xl font-semibold mb-2">Email Us:</h2>
+            <a href="mailto:pristinedentalclinic7@gmail.com" className="text-md">pristinedentalclinic7@gmail.com</a>
+          </div>
+        </div>
+        
+        <div className="flex items-center">
+          <FaPhone className="text-teal-500 text-lg mr-2" />
+          <div>
+            <h2 className="text-2xl font-semibold mb-2">Call Us:</h2>
+            <a href="tel:+919018020994" className="text-md">+919018020994</a>
+          </div>
+        </div>
       </div>
+
+      
+      <p className="text-lg text-gray-800 mb-4">
+        Feel free to reach out to us through the provided contact information. We are here to assist you!
+      </p>
+
+     
     </div>
   );
 };
 
-export default NotFoundPage;
+export default Contact;

@@ -34,7 +34,7 @@ const services = [
     description: 'Restore your smile and chewing ability with our advanced dental implant procedures.',
     image: 'https://img.freepik.com/premium-photo/removable-partial-denture-medically-accurate-toothgenerative-ai_841229-1329.jpg?w=900',
   },
-  // Add more services as needed
+  
 ];
 
 const ServicesPage = () => {

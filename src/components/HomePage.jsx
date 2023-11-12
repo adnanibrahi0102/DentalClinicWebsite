@@ -11,8 +11,9 @@ const images = [
   'https://images.unsplash.com/photo-1626736985932-c0df2ae07a2e?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   'https://images.unsplash.com/photo-1593022356769-11f762e25ed9?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   'https://images.unsplash.com/photo-1643660526741-094639fbe53a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  'https://plus.unsplash.com/premium_photo-1664476419863-abc647c1d12f?q=80&w=1626&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  'https://img.freepik.com/free-photo/woman-whitening-treatment_1232-185.jpg?w=900&t=st=1699771784~exp=1699772384~hmac=5c2b1fdc122171897a056a39071025133a808511adb0e62e2d9ca42df7452719',
   'https://img.freepik.com/free-photo/dentist-with-smile_144627-884.jpg?w=996&t=st=1699525302~exp=1699525902~hmac=c9b099183eef3a47a4d6c98bd9e9dc86e338e31f199d837d8f2f0e28763323db',
+  'https://img.freepik.com/premium-photo/orthodontic-treatment-dental-care-concept-beautiful-woman-healthy-smile-close-up-closeup-ceramic_168410-2197.jpg?w=900',
   'https://images.pexels.com/photos/3845624/pexels-photo-3845624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 
 ];
